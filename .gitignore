@@ -1,0 +1,58 @@
+# Virtual environments
+myenv/
+venv/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Environment variables
+.env
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Model files — tracked here since small; use DVC/MLflow for large models
+# model/*.pkl
+__pycache__/
+*.pyc
+*.pyw
+.env
+.env.local
+venv/
+myenv/
+.env.example/
+.pytorch/
+torch/
